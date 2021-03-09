@@ -1,6 +1,6 @@
 let segment = require("./segment"),
     { s2tDict, t2sDict } = require("./pinyinDict");
-let nodejieba = require("nodejieba");
+let nodejieba = require("@node-rs/jieba");
 
 function simplify(text) {
     return segment(text).map(x => {

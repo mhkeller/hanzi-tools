@@ -1,4 +1,4 @@
-let nodejieba = require("nodejieba");
+let nodejieba = require("@node-rs/jieba");
 let { pinyinDict } = require("./pinyinDict");
 
 function segment(text) {
